@@ -7,7 +7,8 @@
      previewImage : 預設圖示 (長按桌面選擇 Widgets 後與拖拉到桌面時顯示的圖).
      resizeMode : none => 不能調整, horizontal => 調整寬, vertical => 調整高.
      updatePeriodMillis : 多久 calling the onUpdate().
-     widgetCategory : 不變. -->
+     widgetCategory : 不變. 
+     Note : 建議以最小 size (minResizeWidth/minResizeHeight) 來做 layout -->
 
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:initialLayout="@layout/layout_widget_one"
