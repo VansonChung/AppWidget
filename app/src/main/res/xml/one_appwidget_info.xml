@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- configure : 新增於桌面時要啟動的 configure activity (第一次應該不會 call onUpdate ?!, 不建議使用...).
+     initialLayout : 拉於桌面後顯示的 layout (FrameLayout/LinearLayout/RelativeLayout/GridLayout).
+     minWidth/minHeight : 預設的 size.
+     minResizeWidth/minResizeHeight : 最小 size.
+     previewImage : 預設圖示 (長按桌面選擇 Widgets 後與拖拉到桌面時顯示的圖).
+     resizeMode : none => 不能調整, horizontal => 調整寬, vertical => 調整高.
+     updatePeriodMillis : 多久 calling the onUpdate().
+     widgetCategory : 不變. -->
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/layout_widget_one"
+    android:minWidth="@dimen/cell_four"
+    android:minHeight="@dimen/cell_two"
+    android:minResizeWidth="@dimen/cell_two"
+    android:minResizeHeight="@dimen/cell_one"
+    android:previewImage="@drawable/default_widget_one"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/layout_widget_two"
+    android:minWidth="@dimen/cell_two"
+    android:minHeight="@dimen/cell_one"
+    android:previewImage="@drawable/default_widget_two"
+    android:resizeMode="none"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen" />
